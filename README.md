@@ -1,7 +1,7 @@
 Role Name [![Build Status](https://travis-ci.org/Copser/elm-ansible-role.svg?branch=develop)](https://travis-ci.org/Copser/elm-ansible-role)
 =========
 
-Ansible role for elm 
+Ansible role for [Elm](https://elm-lang.org/) 
 
 Requirements
 ------------
