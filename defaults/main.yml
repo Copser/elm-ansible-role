@@ -1,3 +1,7 @@
 ---
 # default variables for this role ( see https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html )
 # defaults file for elm-role
+
+elm-default-version: '0.19.0'
+
+install-elm-packages: []

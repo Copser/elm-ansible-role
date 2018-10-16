@@ -2,9 +2,6 @@
 # other variables for the role ( see https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html )
 # vars file for elm-role
 
-elm_version_map:
-  elm-v0.19.0: '0.19.0'
-
 elm_dependencies:
   - wget
   - curl
