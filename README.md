@@ -34,6 +34,10 @@ License
 
 BSD
 
+## Feedback, reports
+
+are most [welcome](https://github.com/Copser/elm-ansible-role/issues)
+
 Author Information
 ------------------
 
