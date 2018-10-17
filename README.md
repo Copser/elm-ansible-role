@@ -3,6 +3,13 @@ Role Name [![Build Status](https://travis-ci.org/Copser/elm-ansible-role.svg?bra
 
 Ansible role for [Elm](https://elm-lang.org/) 
 
+
+## Work in progress
+
+Minimal example is ready, but this is still work in progress, need to tackle `elm install`, `elm make` state.
+
+If you want to help, knock yourself out, thanks :)
+
 Requirements
 ------------
 
