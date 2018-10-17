@@ -29,3 +29,16 @@
   shell: sudo mv /usr/local/bin/
   tags:
     - configuration
+
+- name: setup elm project
+  shell: elm init
+  tags:
+    - configuration
+
+
+- name: install additional elm packages
+  elm:
+    name: "{{ item.name }}"
+  with_items: "{{ elm_packages }}"
+  tags:
+    - configuration
