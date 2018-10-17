@@ -34,11 +34,3 @@
   shell: elm init
   tags:
     - configuration
-
-- name: install additional elm packages
-  elm:
-    state: "{{ elm_install_state }}"
-    name: "{{ item.name }}"
-  with_items: "{{ elm_packages }}"
-  tags:
-    - configuration
