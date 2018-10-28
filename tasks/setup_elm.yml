@@ -16,7 +16,7 @@
     - confuguration
 
 - name: move elm to bin
-  shell: sudo mv /usr/local/bin/
+  shell: mv elm /usr/local/bin/
   tags:
     - configuration
 
