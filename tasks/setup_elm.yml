@@ -21,6 +21,6 @@
     - configuration
 
 - name: setup elm project
-  shell: elm init
+  shell: yes | elm init
   tags:
     - configuration
