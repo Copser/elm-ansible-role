@@ -16,11 +16,11 @@
     - confuguration
 
 - name: move elm to bin
-  shell: sudo mv /usr/local/bin/
+  shell: mv elm /usr/local/bin/
   tags:
     - configuration
 
 - name: setup elm project
-  shell: elm init
+  shell: yes | elm init
   tags:
     - configuration
